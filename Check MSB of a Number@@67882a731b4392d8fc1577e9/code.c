@@ -2,11 +2,12 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if((a<<31)==1){
+    if((a<<31)!=0){
         printf("Set");
     }
     else{
         printf("Not Set");
     }
+    return 0;
 
 }
