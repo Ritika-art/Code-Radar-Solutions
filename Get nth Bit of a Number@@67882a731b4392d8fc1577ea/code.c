@@ -3,10 +3,11 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(n&(1<<n)){
-        printf("1");
+        printf("%d",1);
     }
     else{
-        printf("0");
+        printf("%d",0);
     }
+    return 0;
     
 }
