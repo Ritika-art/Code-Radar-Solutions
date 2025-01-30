@@ -2,11 +2,11 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(1<<n-1){
-        printf("%d",b);
+    if(n&(1<<n)){
+        printf("1");
     }
     else{
-        printf("%d",a);
+        printf("0");
     }
     
 }
