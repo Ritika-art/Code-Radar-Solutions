@@ -9,7 +9,7 @@ int main(){
     }
     while((a & 1)==0){
         count++;
-        x=x>>1;
+        a=a>>1;
     }
     printf("%d",count);
     return 0;
