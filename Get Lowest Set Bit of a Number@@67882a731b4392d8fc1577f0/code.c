@@ -8,9 +8,9 @@ int main(){
         return 0;
 
     }
-    while((x & 1)==0){
+    while((x & (1<<31))==0){
         count++;
-        x=x>>1;
+        x=x<<1;
     }
     printf("d",count);
     return 0;
