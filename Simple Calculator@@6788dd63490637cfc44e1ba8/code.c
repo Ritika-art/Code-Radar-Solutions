@@ -2,20 +2,20 @@
 int main() {
     float a,b,result;
     char c;
-    scanf("%f%f%ch",&a,&b,&c);
-    if(ch=='+'){
+    scanf("%f%f%c",&a,&b,&c);
+    if(c=='+'){
         result=a+b;
         printf("%f",result);
     }
-    else if(ch=='-'){
+    else if(c=='-'){
         result=a-b;
         printf("%f",result);
     }
-    else if(ch=='*'){
+    else if(c=='*'){
         result=a*b;
         printf("%f",result);
     }
-    else if(ch=='/'){
+    else if(c=='/'){
         result=a/b;
         printf("%f",result);
     }
