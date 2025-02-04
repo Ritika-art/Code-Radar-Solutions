@@ -2,7 +2,7 @@
 int main() {
     float a,b,result;
     char c;
-    scanf("%f%f%c",&a,&b,&c);
+    scanf("%f%f%ch",&a,&b,&c);
     if(ch=='+'){
         result=a+b;
         printf("%f",result);
