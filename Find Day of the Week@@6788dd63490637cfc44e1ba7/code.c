@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){
     int week;
-    printf("Enter week number: ");
     scanf("%d",&week);
     switch(week){
         case 1:{
@@ -33,9 +32,9 @@ int main(){
             printf("Sunday\n");
             break;
         }
-        default{
+        default
             printf("Invalid");
-        }
+        
 
     }
     return 0;
