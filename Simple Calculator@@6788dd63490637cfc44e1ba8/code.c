@@ -4,17 +4,17 @@ int main() {
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     if(ch=='+'){
-        printf("%d\n",a+b);
+        printf("%d",a+b);
     }
     else if(ch=='-'){
-        printf("%d\n",a-b);
+        printf("%d",a-b);
     }
     else if(ch=='*'){
-        printf("%d\n",a*b);
+        printf("%d",a*b);
     }
     else if(ch=='/'){
         if(b!=0){
-        printf("%d\n",a/b);}
+        printf("%d",a/b);}
         else{
             printf("error");
         }
