@@ -9,4 +9,4 @@ int main(){
     else{
         printf("Not prime");
     }
-}12
+}
