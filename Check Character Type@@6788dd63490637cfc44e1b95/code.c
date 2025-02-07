@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 int main(){
-    char a;//we can use char when we have digits,alphabets both.
-    scanf("%c",&a);
-    if(isalpha(a)){
-        if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a='O'||a=='U'){
+    char x;//we can use char when we have digits,alphabets both.
+    scanf("%c",&x);
+    if(isalpha(x)){
+        if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u'||x=='A'||x=='E'||x=='I'||x='O'||x=='U'){
             printf("Vowel");
         }
         else{
             printf("Consonant");
         }}
-    else if(isdigit(a)){
+    else if(isdigit(x)){
         printf("Digit");
     }
     else{
