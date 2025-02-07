@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 int main(){
     char a;//we can use char when we have digits,alphabets both.
     scanf("%c",&a);
