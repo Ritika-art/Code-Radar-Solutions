@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 int main(){
-    char x;//we can use char when we have digits,alphabets both.
+    char x;
     scanf("%c",&x);
     if(isalpha(x)){
         if(x=='a'||x=='i'||x=='o'||x=='e'||x=='u'||x=='A'||x=='E'||x=='I'||x='O'||x=='U'){
